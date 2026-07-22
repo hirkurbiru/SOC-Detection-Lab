@@ -1,18 +1,20 @@
-# Log Flow
+# Investigation Workflow
 
-## Objective
+## SOC Investigation Process
 
-Explain how logs travel through the lab.
-
----
-
-## Flow
-
-Windows Event
+Attack
 
 ↓
 
-Sysmon Event
+Event Generated
+
+↓
+
+Windows Logs
+
+↓
+
+Sysmon
 
 ↓
 
@@ -20,40 +22,30 @@ Universal Forwarder
 
 ↓
 
-TCP Port 9997
+Splunk
 
 ↓
 
-Splunk Enterprise
+Search
 
 ↓
 
-Indexer
+Analysis
 
 ↓
 
-Search Head
+MITRE Mapping
 
 ↓
 
-Dashboard
+Incident Report
 
 ↓
 
-SOC Analyst
+Recommendations
 
 ---
 
-## Logs Collected
+## Outcome
 
-- Security
-- System
-- Application
-- Sysmon
-- PowerShell
-
----
-
-## Result
-
-Logs become searchable inside Splunk.
+The workflow demonstrates how a SOC analyst investigates security events from initial detection through final reporting.
