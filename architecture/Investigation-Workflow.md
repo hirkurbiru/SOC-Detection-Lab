@@ -49,3 +49,5 @@ Recommendations
 ## Outcome
 
 The workflow demonstrates how a SOC analyst investigates security events from initial detection through final reporting.
+
+
