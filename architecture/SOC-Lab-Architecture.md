@@ -69,3 +69,5 @@ Transfers Windows Event Logs securely to Splunk Enterprise.
 ## Architecture Summary
 
 The Windows 10 endpoint generates security events. Sysmon enhances these logs, and the Universal Forwarder sends them to Splunk Enterprise. Kali Linux is used to simulate attacker behavior for testing and investigations.
+
+
