@@ -93,3 +93,6 @@ ping <Windows10-IP>
 ## Result
 
 Kali Linux is ready for attack simulation and security testing.
+
+
+
