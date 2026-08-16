@@ -92,3 +92,6 @@ Using an SSD instead of an HDD significantly improves VM performance and reduces
 - Enable virtualization (Intel VT-x or AMD-V) in the BIOS/UEFI before creating virtual machines.
 - Keep at least 20 GB of free disk space for logs, snapshots, and future investigations.
 - A stable internet connection is required to download software updates and installation packages.
+
+
+
